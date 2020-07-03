@@ -16,9 +16,9 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-direction: row;
-    margin: 0 60px;
-    border: 6 solid #000000;
-    
+    margin: 0;
+    flex-wrap: wrap;
+
 }
 
 .box-left {
@@ -31,7 +31,7 @@ body {
 
 .box-right {
     margin: 0 5px;
-    min-width: 40%;
+    width: 40%;
 }
 
 .box-titre {
@@ -39,7 +39,7 @@ body {
     padding: 10px;
     margin: 10px 0;
     font-size: 36px;
-    width: 70%;
+
     text-align: left;
     color: #ffffff;
 }
